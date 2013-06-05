@@ -16,27 +16,38 @@
 		4CDA593F171913CC004F5F2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA593E171913CC004F5F2E /* Default.png */; };
 		4CDA5941171913CC004F5F2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5940171913CC004F5F2E /* Default@2x.png */; };
 		4CDA5943171913CC004F5F2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5942171913CC004F5F2E /* Default-568h@2x.png */; };
-		4CDA5946171913CC004F5F2E /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5945171913CC004F5F2E /* WBViewController.m */; };
-		4CDA5949171913CC004F5F2E /* WBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5947171913CC004F5F2E /* WBViewController.xib */; };
+		4CDA5946171913CC004F5F2E /* WBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */; };
+		4CDA595717193971004F5F2E /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA595617193971004F5F2E /* BackViewController.m */; };
+		4CDA595A1719DCA8004F5F2E /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA59591719DCA8004F5F2E /* FrontViewController.m */; };
+		4CDA5AE1171BBF23004F5F2E /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */; };
+		4CDA5AE5171BC893004F5F2E /* Slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE3171BC893004F5F2E /* Slider.png */; };
+		4CDA5AE6171BC893004F5F2E /* Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE4171BC893004F5F2E /* Slider@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4CDA5929171913CC004F5F2E /* SideSwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideSwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA5929171913CC004F5F2E /* WBSlidingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBSlidingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDA592C171913CC004F5F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CDA592E171913CC004F5F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CDA5930171913CC004F5F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CDA5934171913CC004F5F2E /* SideSwipeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideSwipeView-Info.plist"; sourceTree = "<group>"; };
+		4CDA5934171913CC004F5F2E /* WBSlidingViewControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBSlidingViewControllerTest-Info.plist"; sourceTree = "<group>"; };
 		4CDA5936171913CC004F5F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CDA5938171913CC004F5F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CDA593A171913CC004F5F2E /* SideSwipeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideSwipeView-Prefix.pch"; sourceTree = "<group>"; };
-		4CDA593B171913CC004F5F2E /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
-		4CDA593C171913CC004F5F2E /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
+		4CDA593A171913CC004F5F2E /* WBSlidingViewControllerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBSlidingViewControllerTest-Prefix.pch"; sourceTree = "<group>"; };
+		4CDA593B171913CC004F5F2E /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WBAppDelegate.h; path = SideSwipeView/WBAppDelegate.h; sourceTree = "<group>"; };
+		4CDA593C171913CC004F5F2E /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WBAppDelegate.m; path = SideSwipeView/WBAppDelegate.m; sourceTree = "<group>"; };
 		4CDA593E171913CC004F5F2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4CDA5940171913CC004F5F2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4CDA5942171913CC004F5F2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4CDA5944171913CC004F5F2E /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
-		4CDA5945171913CC004F5F2E /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
-		4CDA5948171913CC004F5F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WBViewController.xib; sourceTree = "<group>"; };
+		4CDA5944171913CC004F5F2E /* WBSlidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBSlidingViewController.h; sourceTree = "<group>"; };
+		4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBSlidingViewController.m; sourceTree = "<group>"; };
+		4CDA595517193971004F5F2E /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackViewController.h; path = SideSwipeView/BackViewController.h; sourceTree = "<group>"; };
+		4CDA595617193971004F5F2E /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackViewController.m; path = SideSwipeView/BackViewController.m; sourceTree = "<group>"; };
+		4CDA59581719DCA8004F5F2E /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontViewController.h; path = SideSwipeView/FrontViewController.h; sourceTree = "<group>"; };
+		4CDA59591719DCA8004F5F2E /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontViewController.m; path = SideSwipeView/FrontViewController.m; sourceTree = "<group>"; };
+		4CDA5ADF171BBF22004F5F2E /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTestViewController.h; path = SideSwipeView/SlidingTestViewController.h; sourceTree = "<group>"; };
+		4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTestViewController.m; path = SideSwipeView/SlidingTestViewController.m; sourceTree = "<group>"; };
+		4CDA5AE3171BC893004F5F2E /* Slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slider.png; sourceTree = "<group>"; };
+		4CDA5AE4171BC893004F5F2E /* Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +67,8 @@
 		4CDA5920171913CC004F5F2E = {
 			isa = PBXGroup;
 			children = (
-				4CDA5932171913CC004F5F2E /* SideSwipeView */,
+				4CDA5AE7171CADB4004F5F2E /* WBSlidingViewController Test */,
+				4CDA5932171913CC004F5F2E /* WBSlidingViewController */,
 				4CDA592B171913CC004F5F2E /* Frameworks */,
 				4CDA592A171913CC004F5F2E /* Products */,
 			);
@@ -65,7 +77,7 @@
 		4CDA592A171913CC004F5F2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA5929171913CC004F5F2E /* SideSwipeView.app */,
+				4CDA5929171913CC004F5F2E /* WBSlidingViewController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,39 +92,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CDA5932171913CC004F5F2E /* SideSwipeView */ = {
+		4CDA5932171913CC004F5F2E /* WBSlidingViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA593B171913CC004F5F2E /* WBAppDelegate.h */,
-				4CDA593C171913CC004F5F2E /* WBAppDelegate.m */,
-				4CDA5944171913CC004F5F2E /* WBViewController.h */,
-				4CDA5945171913CC004F5F2E /* WBViewController.m */,
-				4CDA5947171913CC004F5F2E /* WBViewController.xib */,
-				4CDA5933171913CC004F5F2E /* Supporting Files */,
+				4CDA5944171913CC004F5F2E /* WBSlidingViewController.h */,
+				4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */,
 			);
+			name = WBSlidingViewController;
 			path = SideSwipeView;
 			sourceTree = "<group>";
 		};
 		4CDA5933171913CC004F5F2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA5934171913CC004F5F2E /* SideSwipeView-Info.plist */,
+				4CDA5AE2171BC893004F5F2E /* images */,
+				4CDA5934171913CC004F5F2E /* WBSlidingViewControllerTest-Info.plist */,
 				4CDA5935171913CC004F5F2E /* InfoPlist.strings */,
 				4CDA5938171913CC004F5F2E /* main.m */,
-				4CDA593A171913CC004F5F2E /* SideSwipeView-Prefix.pch */,
+				4CDA593A171913CC004F5F2E /* WBSlidingViewControllerTest-Prefix.pch */,
 				4CDA593E171913CC004F5F2E /* Default.png */,
 				4CDA5940171913CC004F5F2E /* Default@2x.png */,
 				4CDA5942171913CC004F5F2E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = SideSwipeView;
+			sourceTree = "<group>";
+		};
+		4CDA5AE2171BC893004F5F2E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA5AE3171BC893004F5F2E /* Slider.png */,
+				4CDA5AE4171BC893004F5F2E /* Slider@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4CDA5AE7171CADB4004F5F2E /* WBSlidingViewController Test */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA593B171913CC004F5F2E /* WBAppDelegate.h */,
+				4CDA593C171913CC004F5F2E /* WBAppDelegate.m */,
+				4CDA5933171913CC004F5F2E /* Supporting Files */,
+				4CDA595517193971004F5F2E /* BackViewController.h */,
+				4CDA595617193971004F5F2E /* BackViewController.m */,
+				4CDA59581719DCA8004F5F2E /* FrontViewController.h */,
+				4CDA59591719DCA8004F5F2E /* FrontViewController.m */,
+				4CDA5ADF171BBF22004F5F2E /* SlidingTestViewController.h */,
+				4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */,
+			);
+			name = "WBSlidingViewController Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CDA5928171913CC004F5F2E /* SideSwipeView */ = {
+		4CDA5928171913CC004F5F2E /* WBSlidingViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CDA594C171913CC004F5F2E /* Build configuration list for PBXNativeTarget "SideSwipeView" */;
+			buildConfigurationList = 4CDA594C171913CC004F5F2E /* Build configuration list for PBXNativeTarget "WBSlidingViewController" */;
 			buildPhases = (
 				4CDA5925171913CC004F5F2E /* Sources */,
 				4CDA5926171913CC004F5F2E /* Frameworks */,
@@ -122,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = SideSwipeView;
+			name = WBSlidingViewController;
 			productName = SideSwipeView;
-			productReference = 4CDA5929171913CC004F5F2E /* SideSwipeView.app */;
+			productReference = 4CDA5929171913CC004F5F2E /* WBSlidingViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +173,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Wooly Beast Software";
 			};
-			buildConfigurationList = 4CDA5924171913CC004F5F2E /* Build configuration list for PBXProject "SideSwipeView" */;
+			buildConfigurationList = 4CDA5924171913CC004F5F2E /* Build configuration list for PBXProject "WBSlidingViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CDA5928171913CC004F5F2E /* SideSwipeView */,
+				4CDA5928171913CC004F5F2E /* WBSlidingViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -163,7 +199,8 @@
 				4CDA593F171913CC004F5F2E /* Default.png in Resources */,
 				4CDA5941171913CC004F5F2E /* Default@2x.png in Resources */,
 				4CDA5943171913CC004F5F2E /* Default-568h@2x.png in Resources */,
-				4CDA5949171913CC004F5F2E /* WBViewController.xib in Resources */,
+				4CDA5AE5171BC893004F5F2E /* Slider.png in Resources */,
+				4CDA5AE6171BC893004F5F2E /* Slider@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +213,10 @@
 			files = (
 				4CDA5939171913CC004F5F2E /* main.m in Sources */,
 				4CDA593D171913CC004F5F2E /* WBAppDelegate.m in Sources */,
-				4CDA5946171913CC004F5F2E /* WBViewController.m in Sources */,
+				4CDA5946171913CC004F5F2E /* WBSlidingViewController.m in Sources */,
+				4CDA595717193971004F5F2E /* BackViewController.m in Sources */,
+				4CDA595A1719DCA8004F5F2E /* FrontViewController.m in Sources */,
+				4CDA5AE1171BBF23004F5F2E /* SlidingTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +229,6 @@
 				4CDA5936171913CC004F5F2E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4CDA5947171913CC004F5F2E /* WBViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CDA5948171913CC004F5F2E /* en */,
-			);
-			name = WBViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,9 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideSwipeView/SideSwipeView-Prefix.pch";
-				INFOPLIST_FILE = "SideSwipeView/SideSwipeView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SideSwipeView/WBSlidingViewControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SideSwipeView/WBSlidingViewControllerTest-Info.plist";
+				PRODUCT_NAME = WBSlidingViewController;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideSwipeView/SideSwipeView-Prefix.pch";
-				INFOPLIST_FILE = "SideSwipeView/SideSwipeView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SideSwipeView/WBSlidingViewControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SideSwipeView/WBSlidingViewControllerTest-Info.plist";
+				PRODUCT_NAME = WBSlidingViewController;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CDA5924171913CC004F5F2E /* Build configuration list for PBXProject "SideSwipeView" */ = {
+		4CDA5924171913CC004F5F2E /* Build configuration list for PBXProject "WBSlidingViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CDA594A171913CC004F5F2E /* Debug */,
@@ -292,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CDA594C171913CC004F5F2E /* Build configuration list for PBXNativeTarget "SideSwipeView" */ = {
+		4CDA594C171913CC004F5F2E /* Build configuration list for PBXNativeTarget "WBSlidingViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CDA594D171913CC004F5F2E /* Debug */,
 				4CDA594E171913CC004F5F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
