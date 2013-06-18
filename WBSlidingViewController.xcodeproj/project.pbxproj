@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0C3DC9177107B600D79281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DC7177107B600D79281 /* InfoPlist.strings */; };
+		4C0C3DD5177108E200D79281 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DCE177108E200D79281 /* BackViewController.m */; };
+		4C0C3DD6177108E200D79281 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DD0177108E200D79281 /* FrontViewController.m */; };
+		4C0C3DD7177108E200D79281 /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DD2177108E200D79281 /* SlidingTestViewController.m */; };
+		4C0C3DD8177108E200D79281 /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DD4177108E200D79281 /* WBAppDelegate.m */; };
+		4C0C3DDA1771090000D79281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DD91771090000D79281 /* main.m */; };
+		4C0C3DDD1771090900D79281 /* WBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C3DDC1771090900D79281 /* WBSlidingViewController.m */; };
+		4C0C3DE01771092200D79281 /* Slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DDE1771092200D79281 /* Slider.png */; };
+		4C0C3DE11771092200D79281 /* Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DDF1771092200D79281 /* Slider@2x.png */; };
+		4C0C3DE51771093400D79281 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DE21771093400D79281 /* Default-568h@2x.png */; };
+		4C0C3DE61771093400D79281 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DE31771093400D79281 /* Default.png */; };
+		4C0C3DE71771093400D79281 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3DE41771093400D79281 /* Default@2x.png */; };
 		4CDA592D171913CC004F5F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA592C171913CC004F5F2E /* UIKit.framework */; };
 		4CDA592F171913CC004F5F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA592E171913CC004F5F2E /* Foundation.framework */; };
 		4CDA5931171913CC004F5F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA5930171913CC004F5F2E /* CoreGraphics.framework */; };
-		4CDA5937171913CC004F5F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5935171913CC004F5F2E /* InfoPlist.strings */; };
-		4CDA5939171913CC004F5F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5938171913CC004F5F2E /* main.m */; };
-		4CDA593D171913CC004F5F2E /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA593C171913CC004F5F2E /* WBAppDelegate.m */; };
-		4CDA593F171913CC004F5F2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA593E171913CC004F5F2E /* Default.png */; };
-		4CDA5941171913CC004F5F2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5940171913CC004F5F2E /* Default@2x.png */; };
-		4CDA5943171913CC004F5F2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5942171913CC004F5F2E /* Default-568h@2x.png */; };
-		4CDA5946171913CC004F5F2E /* WBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */; };
-		4CDA595717193971004F5F2E /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA595617193971004F5F2E /* BackViewController.m */; };
-		4CDA595A1719DCA8004F5F2E /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA59591719DCA8004F5F2E /* FrontViewController.m */; };
-		4CDA5AE1171BBF23004F5F2E /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */; };
-		4CDA5AE5171BC893004F5F2E /* Slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE3171BC893004F5F2E /* Slider.png */; };
-		4CDA5AE6171BC893004F5F2E /* Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA5AE4171BC893004F5F2E /* Slider@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0C3DC8177107B600D79281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = WBSlidingViewController/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		4C0C3DCD177108E200D79281 /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackViewController.h; path = WBSlidingViewController/BackViewController.h; sourceTree = "<group>"; };
+		4C0C3DCE177108E200D79281 /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackViewController.m; path = WBSlidingViewController/BackViewController.m; sourceTree = "<group>"; };
+		4C0C3DCF177108E200D79281 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontViewController.h; path = WBSlidingViewController/FrontViewController.h; sourceTree = "<group>"; };
+		4C0C3DD0177108E200D79281 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontViewController.m; path = WBSlidingViewController/FrontViewController.m; sourceTree = "<group>"; };
+		4C0C3DD1177108E200D79281 /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTestViewController.h; path = WBSlidingViewController/SlidingTestViewController.h; sourceTree = "<group>"; };
+		4C0C3DD2177108E200D79281 /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTestViewController.m; path = WBSlidingViewController/SlidingTestViewController.m; sourceTree = "<group>"; };
+		4C0C3DD3177108E200D79281 /* WBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBAppDelegate.h; path = WBSlidingViewController/WBAppDelegate.h; sourceTree = "<group>"; };
+		4C0C3DD4177108E200D79281 /* WBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBAppDelegate.m; path = WBSlidingViewController/WBAppDelegate.m; sourceTree = "<group>"; };
+		4C0C3DD91771090000D79281 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WBSlidingViewController/main.m; sourceTree = SOURCE_ROOT; };
+		4C0C3DDB1771090900D79281 /* WBSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSlidingViewController.h; sourceTree = SOURCE_ROOT; };
+		4C0C3DDC1771090900D79281 /* WBSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSlidingViewController.m; sourceTree = SOURCE_ROOT; };
+		4C0C3DDE1771092200D79281 /* Slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Slider.png; path = images/Slider.png; sourceTree = SOURCE_ROOT; };
+		4C0C3DDF1771092200D79281 /* Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slider@2x.png"; path = "images/Slider@2x.png"; sourceTree = SOURCE_ROOT; };
+		4C0C3DE21771093400D79281 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "WBSlidingViewController/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		4C0C3DE31771093400D79281 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = WBSlidingViewController/Default.png; sourceTree = SOURCE_ROOT; };
+		4C0C3DE41771093400D79281 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "WBSlidingViewController/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		4CDA5929171913CC004F5F2E /* WBSlidingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBSlidingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDA592C171913CC004F5F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CDA592E171913CC004F5F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CDA5930171913CC004F5F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CDA5934171913CC004F5F2E /* WBSlidingViewControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBSlidingViewControllerTest-Info.plist"; sourceTree = "<group>"; };
-		4CDA5936171913CC004F5F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4CDA5938171913CC004F5F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CDA593A171913CC004F5F2E /* WBSlidingViewControllerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBSlidingViewControllerTest-Prefix.pch"; sourceTree = "<group>"; };
-		4CDA593B171913CC004F5F2E /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WBAppDelegate.h; path = SideSwipeView/WBAppDelegate.h; sourceTree = "<group>"; };
-		4CDA593C171913CC004F5F2E /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WBAppDelegate.m; path = SideSwipeView/WBAppDelegate.m; sourceTree = "<group>"; };
-		4CDA593E171913CC004F5F2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4CDA5940171913CC004F5F2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4CDA5942171913CC004F5F2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4CDA5944171913CC004F5F2E /* WBSlidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBSlidingViewController.h; sourceTree = "<group>"; };
-		4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBSlidingViewController.m; sourceTree = "<group>"; };
-		4CDA595517193971004F5F2E /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackViewController.h; path = SideSwipeView/BackViewController.h; sourceTree = "<group>"; };
-		4CDA595617193971004F5F2E /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackViewController.m; path = SideSwipeView/BackViewController.m; sourceTree = "<group>"; };
-		4CDA59581719DCA8004F5F2E /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontViewController.h; path = SideSwipeView/FrontViewController.h; sourceTree = "<group>"; };
-		4CDA59591719DCA8004F5F2E /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontViewController.m; path = SideSwipeView/FrontViewController.m; sourceTree = "<group>"; };
-		4CDA5ADF171BBF22004F5F2E /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTestViewController.h; path = SideSwipeView/SlidingTestViewController.h; sourceTree = "<group>"; };
-		4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTestViewController.m; path = SideSwipeView/SlidingTestViewController.m; sourceTree = "<group>"; };
-		4CDA5AE3171BC893004F5F2E /* Slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slider.png; sourceTree = "<group>"; };
-		4CDA5AE4171BC893004F5F2E /* Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider@2x.png"; sourceTree = "<group>"; };
+		4CDA5934171913CC004F5F2E /* WBSlidingViewControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "WBSlidingViewControllerTest-Info.plist"; path = "WBSlidingViewController/WBSlidingViewControllerTest-Info.plist"; sourceTree = "<group>"; };
+		4CDA593A171913CC004F5F2E /* WBSlidingViewControllerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WBSlidingViewControllerTest-Prefix.pch"; path = "WBSlidingViewController/WBSlidingViewControllerTest-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		4CDA5920171913CC004F5F2E = {
 			isa = PBXGroup;
 			children = (
-				4CDA5AE7171CADB4004F5F2E /* WBSlidingViewController Test */,
+				4CDA5AE7171CADB4004F5F2E /* Other Sources */,
 				4CDA5932171913CC004F5F2E /* WBSlidingViewController */,
 				4CDA592B171913CC004F5F2E /* Frameworks */,
 				4CDA592A171913CC004F5F2E /* Products */,
@@ -95,8 +95,8 @@
 		4CDA5932171913CC004F5F2E /* WBSlidingViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA5944171913CC004F5F2E /* WBSlidingViewController.h */,
-				4CDA5945171913CC004F5F2E /* WBSlidingViewController.m */,
+				4C0C3DDB1771090900D79281 /* WBSlidingViewController.h */,
+				4C0C3DDC1771090900D79281 /* WBSlidingViewController.m */,
 			);
 			name = WBSlidingViewController;
 			path = SideSwipeView;
@@ -105,14 +105,14 @@
 		4CDA5933171913CC004F5F2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C0C3DE21771093400D79281 /* Default-568h@2x.png */,
+				4C0C3DE31771093400D79281 /* Default.png */,
+				4C0C3DE41771093400D79281 /* Default@2x.png */,
+				4C0C3DD91771090000D79281 /* main.m */,
+				4C0C3DC7177107B600D79281 /* InfoPlist.strings */,
 				4CDA5AE2171BC893004F5F2E /* images */,
 				4CDA5934171913CC004F5F2E /* WBSlidingViewControllerTest-Info.plist */,
-				4CDA5935171913CC004F5F2E /* InfoPlist.strings */,
-				4CDA5938171913CC004F5F2E /* main.m */,
 				4CDA593A171913CC004F5F2E /* WBSlidingViewControllerTest-Prefix.pch */,
-				4CDA593E171913CC004F5F2E /* Default.png */,
-				4CDA5940171913CC004F5F2E /* Default@2x.png */,
-				4CDA5942171913CC004F5F2E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			path = SideSwipeView;
@@ -121,26 +121,26 @@
 		4CDA5AE2171BC893004F5F2E /* images */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA5AE3171BC893004F5F2E /* Slider.png */,
-				4CDA5AE4171BC893004F5F2E /* Slider@2x.png */,
+				4C0C3DDE1771092200D79281 /* Slider.png */,
+				4C0C3DDF1771092200D79281 /* Slider@2x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
 		};
-		4CDA5AE7171CADB4004F5F2E /* WBSlidingViewController Test */ = {
+		4CDA5AE7171CADB4004F5F2E /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4CDA593B171913CC004F5F2E /* WBAppDelegate.h */,
-				4CDA593C171913CC004F5F2E /* WBAppDelegate.m */,
+				4C0C3DCD177108E200D79281 /* BackViewController.h */,
+				4C0C3DCE177108E200D79281 /* BackViewController.m */,
+				4C0C3DCF177108E200D79281 /* FrontViewController.h */,
+				4C0C3DD0177108E200D79281 /* FrontViewController.m */,
+				4C0C3DD1177108E200D79281 /* SlidingTestViewController.h */,
+				4C0C3DD2177108E200D79281 /* SlidingTestViewController.m */,
+				4C0C3DD3177108E200D79281 /* WBAppDelegate.h */,
+				4C0C3DD4177108E200D79281 /* WBAppDelegate.m */,
 				4CDA5933171913CC004F5F2E /* Supporting Files */,
-				4CDA595517193971004F5F2E /* BackViewController.h */,
-				4CDA595617193971004F5F2E /* BackViewController.m */,
-				4CDA59581719DCA8004F5F2E /* FrontViewController.h */,
-				4CDA59591719DCA8004F5F2E /* FrontViewController.m */,
-				4CDA5ADF171BBF22004F5F2E /* SlidingTestViewController.h */,
-				4CDA5AE0171BBF22004F5F2E /* SlidingTestViewController.m */,
 			);
-			name = "WBSlidingViewController Test";
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,12 +195,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDA5937171913CC004F5F2E /* InfoPlist.strings in Resources */,
-				4CDA593F171913CC004F5F2E /* Default.png in Resources */,
-				4CDA5941171913CC004F5F2E /* Default@2x.png in Resources */,
-				4CDA5943171913CC004F5F2E /* Default-568h@2x.png in Resources */,
-				4CDA5AE5171BC893004F5F2E /* Slider.png in Resources */,
-				4CDA5AE6171BC893004F5F2E /* Slider@2x.png in Resources */,
+				4C0C3DC9177107B600D79281 /* InfoPlist.strings in Resources */,
+				4C0C3DE01771092200D79281 /* Slider.png in Resources */,
+				4C0C3DE11771092200D79281 /* Slider@2x.png in Resources */,
+				4C0C3DE51771093400D79281 /* Default-568h@2x.png in Resources */,
+				4C0C3DE61771093400D79281 /* Default.png in Resources */,
+				4C0C3DE71771093400D79281 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,22 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDA5939171913CC004F5F2E /* main.m in Sources */,
-				4CDA593D171913CC004F5F2E /* WBAppDelegate.m in Sources */,
-				4CDA5946171913CC004F5F2E /* WBSlidingViewController.m in Sources */,
-				4CDA595717193971004F5F2E /* BackViewController.m in Sources */,
-				4CDA595A1719DCA8004F5F2E /* FrontViewController.m in Sources */,
-				4CDA5AE1171BBF23004F5F2E /* SlidingTestViewController.m in Sources */,
+				4C0C3DD5177108E200D79281 /* BackViewController.m in Sources */,
+				4C0C3DD6177108E200D79281 /* FrontViewController.m in Sources */,
+				4C0C3DD7177108E200D79281 /* SlidingTestViewController.m in Sources */,
+				4C0C3DD8177108E200D79281 /* WBAppDelegate.m in Sources */,
+				4C0C3DDA1771090000D79281 /* main.m in Sources */,
+				4C0C3DDD1771090900D79281 /* WBSlidingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CDA5935171913CC004F5F2E /* InfoPlist.strings */ = {
+		4C0C3DC7177107B600D79281 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4CDA5936171913CC004F5F2E /* en */,
+				4C0C3DC8177107B600D79281 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -262,6 +262,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -286,6 +287,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -294,8 +296,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideSwipeView/WBSlidingViewControllerTest-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/SideSwipeView/WBSlidingViewControllerTest-Info.plist";
+				GCC_PREFIX_HEADER = "WBSlidingViewController/WBSlidingViewControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WBSlidingViewController/WBSlidingViewControllerTest-Info.plist";
 				PRODUCT_NAME = WBSlidingViewController;
 				WRAPPER_EXTENSION = app;
 			};
@@ -305,8 +307,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideSwipeView/WBSlidingViewControllerTest-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/SideSwipeView/WBSlidingViewControllerTest-Info.plist";
+				GCC_PREFIX_HEADER = "WBSlidingViewController/WBSlidingViewControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WBSlidingViewController/WBSlidingViewControllerTest-Info.plist";
 				PRODUCT_NAME = WBSlidingViewController;
 				WRAPPER_EXTENSION = app;
 			};
