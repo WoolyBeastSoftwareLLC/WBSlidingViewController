@@ -24,7 +24,15 @@ view controllers should adopt the WBSlidingViewControllerDelegate protocol as we
 	svc.backViewController = bvc;
 	svc.delegage = bvc;
 
-Step 3. Set the back view's frame width to control the amount that the front view slides to reveal in the desire direction.
+Step 3. Set the back view's frame width to control the amount that the front view slides to reveal in the desire direction. To set it
+to an absolute width use a positive value:
+
+	[svc setBackViewWidth:300.0];	// reveals 300px of the back view
+	
+or, if you want the front view to always be consistant width when opened regardless of the orientation, use a negative value:
+
+	[svc setBackViewWidth:-44.0];	// reveals all but 44px of the back view regardless of the orientation
+	
 When the front view slides open, the sliding edge will line up with the opposite edge of the back view. Depending on the
 direction chosen, the back view will be properly edge aligned to make the desired sliding effect work correctly. Optionally,
 prior to sliding open the front view, the delegate will receive the message:
